@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="zh-CN" xmlns="http://w3.org/1999/xhtml">
+
+<head>
+<meta name="keywords" content="HuangweerfFuang, geochemistry, isotopes">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Prof. Huang Fang's research group, ">
+<meta name="author" content="">
+<link rel="shortcut icon" href="./img/fhuang.ico" type="image/x-icon">
+<link rel="icon" href="./img/fhuang.ico" type="image/x-icon">
+<link rel="stylesheet" href="./css/index.css" type="text/css">
+<link rel="stylesheet" href="./css/home.css" type="text/css">
+
+<title>金属稳定同位素实验室</title>
+</head>
+<body>
+
+    <!-- #################    BODY    ################# -->
+    <div id="main">
+
+        <!-- #################   HEADER   ################# -->
+        <div id=header>
+            <img id="imgheader" src="./img/header.jpg" alt="Earth and Space Science School" />
+        </div>
+
+        <!-- ################# NAVIGATION ################# -->
+        <div id="navigation">
+            <ul class="row">
+                <li><a id="index" href="index.html">首页</a></li>
+                <li><a id="leader" href="leader.html">教授简介</a></li>
+                <li><a id="research" href="research.html">研究方向</a></li>
+                <li><a id="education" href="teach.html">教学</a></li>
+                <li><a id="publications" href="publications.html">发表论文</a></li>
+                <li><a id="people" href="people.html">团队成员</a></li>
+                <li><a id="hardware" href="hardware.html">实验室平台</a></li>
+                <li><a id="activity" href="activity.html">近期新闻</a></li>
+                <li><a id="education" href="education.html">招生与培养</a></li>
+                <li><a id="contact" href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+
+        <!-- ################  CONTAINER  ################# -->
+        <div id="container">
+            <div id="coverleft">
+                <img id="earth" src="./img/earth.png" alt="THE EARTH" />
+            </div>
+<!--            <div id="covercenter">
+                <p>浴</br>呼</br>沂</br>风</br>呼</br>舞</br>雩</br>咏</br>而</br>归</p>
+            </div>-->
+            <div id="coverright">
+                <p id="motto" class="hdjxingshu"><span>基础研究</span><br />是开启智慧的钥匙，<br />是培养人才的捷径，<br />是文化创新的源泉，<br />是技术进步的根本。</p>
+                <div id="signature">
+                    <img id="imgsign" src="./img/signaturewhite.jpg" alt="-黄方" />
+                </div>
+            </div>
+        </div>
+        <div class="hdjxingshu"><p id="kongzi">浴乎沂,风乎舞雩,咏而归。</p></div>
+        <!-- ################    SHOW     ################### -->
+        <div id="marquee">
+           <table cellpadding="0" cellspacing="0" border="0">
+               <tr><td id="marquee01">
+                   <table cellpadding="0" cellspacing="0" border="0">
+                   <tr>
+                   <td><img src="./img/scroll/1.jpg"></td>
+                   <td><img src="./img/scroll/12.jpg"></td>
+                   <td><img src="./img/scroll/3.jpg"></td>
+                   <td><img src="./img/scroll/14.jpg"></td>
+                   <td><img src="./img/scroll/5.jpg"></td>
+                   <td><img src="./img/scroll/16.jpg"></td>
+                   <td><img src="./img/scroll/7.jpg"></td>
+                   <td><img src="./img/scroll/18.jpg"></td>
+                   <td><img src="./img/scroll/9.jpg"></td>
+                   <td><img src="./img/scroll/10.jpg"></td>
+                   <td><img src="./img/scroll/11.jpg"></td>
+                   <td><img src="./img/scroll/2.jpg"></td>
+                   <td><img src="./img/scroll/13.jpg"></td>
+                   <td><img src="./img/scroll/4.jpg"></td>
+                   <td><img src="./img/scroll/15.jpg"></td>
+                   <td><img src="./img/scroll/6.jpg"></td>
+                   <td><img src="./img/scroll/17.jpg"></td>
+                   <td><img src="./img/scroll/8.jpg"></td>
+                   <td><img src="./img/scroll/19.jpg"></td>
+                   <td><img src="./img/scroll/20.jpg"></td>
+                   <td><img src="./img/scroll/21.jpg"></td>
+                   <td><img src="./img/scroll/22.jpg"></td>
+                   </tr>
+                   </table>
+                   </td>
+                   <td id="marquee02"></td>
+               </tr>
+           </table>
+       </div>
+       <script>
+       var speed=30
+       marquee02.innerHTML=marquee01.innerHTML
+       function marq(){
+           if(marquee02.offsetWidth-marquee.scrollLeft<=0)
+           marquee.scrollLeft-=marquee01.offsetWidth
+           else{
+           marquee.scrollLeft++
+           }
+           }
+           var timer=setInterval(marq,speed)
+           marquee.onmouseover=function() {clearInterval(timer)}
+           marquee.onmouseout=function() {timer=setInterval(marq,speed)}
+       </script>
+
+<!--        <div id="cgi">
+            <p id="visited"> 访问量：
+            <img id="counter" src="/cgi-bin/Count.cgi?df=zhchouen.dat&ft=0&sh=N&tr=N&trgb=ffffff&pad=N&dd=cd&md=5" alt="counter"/>
+            </p>
+        </div>-->
+
+        <!-- ################   FOOTER    ################# -->
+        <div id="footer">
+            <div id="cgi">
+                <p id="visited"> 访问量：
+                <img id="counter" src="/cgi-bin/Count.cgi?df=fhuang.dat&ft=0&tr=N&trgb=ffffff&pad=N&dd=cd&md=5" alt="counter"/></p>
+            </div>
+            <p id="email">电子邮箱: fhuang@ustc.edu.cn | 电话：+86-0551-63607810 | 传真：+86-0551-63607386<br />通讯地址: 安徽省合肥市金寨路96号中国科学技术大学东校区环境资源楼814 | 邮政编码：230026</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="http://www.youziku.com/UserDownFile/jquery.min.js"></script> <script type="text/javascript" src="http://www.youziku.com/UserDownFile/jquery.md5.js"></script> <script type="text/javascript"> function youziku19607() { var resultStr = $(".hdjxingshu").text(); var md5 = ""; resultStr = Trim(resultStr); resultStr = SelectWord(resultStr); md5 = $.md5("aeeaddbe8ef844d98568006196cf1420"+"hdjxingshu" + resultStr); $.getJSON("http://www.youziku.com/webfont/CSSPOST?jsoncallback=?", { "id": md5, "guid": "aeeaddbe8ef844d98568006196cf1420", "type": "5" }, function (json) { if (json.result == 0) {/*alert("需要生成");*/ $.post("http://www.youziku.com/webfont/PostCorsCreateFont", { "name": "hdjxingshu", "gid": "aeeaddbe8ef844d98568006196cf1420", "type": "5", "text": resultStr }, function (json) { if (json == "0") { /*alert("参数不对");*/ } else if (json == "2") {/*alert("超过每日生成字体数的上限");*/ } else if (json == "3") { /*alert("当前正在生成请稍后");*/ } else {/*alert("正在生成");*/ } }); } else {/*alert("下载css文件");*/ loadExtentFile("http://www.youziku.com/webfont/css?id=" + md5 + "&guid=" + "aeeaddbe8ef844d98568006196cf1420" + "&type=5"); } }); } (function youziku() { if (window.location.href.toString().substring(0, 7) == "file://") { alert("你当前是通过双击打开html文件，进行本地测试的，这样看不到字体效果，一定要通过本地建立的虚拟网站或发布到外网进行测试。详见有字库的使用说明。"); }else{ youziku19607(); } })() </script>
+</html>
